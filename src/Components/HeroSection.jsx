@@ -1,0 +1,25 @@
+    import React from "react";
+    import image from "../assets/AudiRSQ8.avif";
+
+    const HeroSection = () => (
+    <section className="relative bg-black text-white h-[60vh] sm:h-screen flex">
+        <div className="absolute inset-0 bg-cover bg-right" style={{ backgroundImage: `url(${image})` }}></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-black via-transparent to-transparent opacity-70"></div>
+
+        <div className="z-10 absolute top-0 right-0 p-12 text-left lg:text-right max-w-4xl">
+        <h1 className="text-3xl sm:text-5xl font-medium mb-4 text-gray-600">
+            Redefining Luxury and Performance
+        </h1>
+        <p className="text-xl mb-6 text-gray-600 md:text-gray-400" >
+            Step into the future with Audi's state-of-the-art technology and timeless design.
+        </p>
+       <div className="w-full flex justify-start lg:justify-end items-end ">
+       <button className="bg-white text-black px-6 py-3 rounded hover:bg-gradient-to-r from-gray-200 to-gray-400 transition-all duration-300 transform hover:scale-105">
+            Explore Models
+        </button>
+       </div>
+        </div>
+     </section>
+    );
+
+    export default HeroSection;
