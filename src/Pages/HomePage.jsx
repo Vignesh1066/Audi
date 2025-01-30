@@ -7,6 +7,7 @@ import ElectricSection from "../Components/ElectricComponent";
 import ProgressSection from "../Components/ProgressComponent";
 import MotorsportSection from "../Components/NewEraComponent";
 import ServicesSection from "../Components/ServiceComponent";
+import Future from "../Components/FutureComponent";
 
 
 const LandingPage = () => (
@@ -16,7 +17,8 @@ const LandingPage = () => (
     <ModelsSection />
     <ElectricSection/>
     <MotorsportSection/>
-    <ProgressSection/> 
+    <ProgressSection/>
+    <Future/> 
     <ServicesSection/>
     <Footer />
   </div>

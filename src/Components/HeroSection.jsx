@@ -3,7 +3,7 @@ import desktopImage from "../assets/AudiRSQ8.avif";
 import mobileImage from "../assets/Audi-E-tronHub.webp"; 
 
 const HeroSection = () => (
-  <section className="relative bg-black text-white h-[70vh] sm:h-screen flex">
+  <section className="relative bg-black text-white h-[80vh] sm:h-screen flex">
     <div 
       className="absolute inset-0 bg-cover bg-right sm:block hidden"
       style={{ backgroundImage: `url(${desktopImage})` }}
