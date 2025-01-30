@@ -4,6 +4,8 @@ import Footer from "../Components/FooterComponent";
 import Navbar from "../Components/NavComponent";
 import ModelsSection from "../Components/ModelComponent";
 import ElectricSection from "../Components/ElectricComponent";
+import ProgressSection from "../Components/ProgressComponent";
+import MotorsportSection from "../Components/NewEraComponent";
 
 
 const LandingPage = () => (
@@ -11,7 +13,9 @@ const LandingPage = () => (
     <Navbar />
     <HeroSection />
     <ModelsSection />
-    <ElectricSection/> 
+    <ElectricSection/>
+    <MotorsportSection/>
+    <ProgressSection/> 
     <Footer />
   </div>
 );

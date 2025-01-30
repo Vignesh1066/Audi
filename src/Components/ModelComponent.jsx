@@ -47,7 +47,7 @@ const ModelsSection = () => {
   return (
     <section id="models" className="w-full py-10 sm:py-16 bg-gray-50">
       <div className="w-full py-8 bg-gray-50 text-center">
-        <h1 className="text-3xl sm:text-5xl font-medium text-gray-900">
+        <h1 className="text-3xl sm:text-5xl font-medium text-gray-700">
           Our New Models
         </h1>
       </div>
