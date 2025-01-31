@@ -60,10 +60,10 @@ const ModelsSection = () => {
               animate={{ y: 0, opacity: 1 }}
               transition={{ delay: 0.2, duration: 0.6 }}
             >
-              <button className="px-5 py-2 sm:px-6 sm:py-2.5 bg-white text-black font-semibold rounded hover:bg-gray-200 transition duration-300 ease-in-out">
+              <button className="px-5 py-2 sm:px-6 sm:py-2.5 bg-white text-black font-semibold rounded hover:text-black hover:bg-gradient-to-r from-gray-200 to-gray-400 transition duration-300 ease-in-out">
                 Learn More
               </button>
-              <button className="px-5 py-2 sm:px-6 sm:py-2.5 bg-gray-500 text-white font-semibold rounded hover:bg-gray-50 transition duration-300 ease-in-out">
+              <button className="px-5 py-2 sm:px-6 sm:py-2.5 bg-gray-400 text-white font-semibold rounded hover:text-black hover:bg-gradient-to-r from-gray-200 to-gray-400 transition duration-300 ease-in-out">
                 Configure
               </button>
             </motion.div>

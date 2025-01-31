@@ -19,7 +19,7 @@ const HeroSection = () => (
       <h1 className="text-3xl sm:text-5xl font-medium mb-2 sm:mb-4  text-gray-100 sm:text-gray-600">
         Redefining Luxury and Performance
       </h1>
-      <p className="text-xl mb-3 sm:mb-6 text-gray-200 sm:text-gray-600 md:text-gray-400">
+      <p className="text-xl mb-3 sm:mb-6 text-gray-950 sm:text-gray-600 md:text-gray-400">
         Step into the future with Audi's state-of-the-art technology and timeless design.
       </p>
       <div className="w-full flex justify-start lg:justify-end items-end">
